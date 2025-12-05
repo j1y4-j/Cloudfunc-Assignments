@@ -10,7 +10,7 @@ This application allows you to **add, list, update, mark done, and remove tasks*
 - List all tasks with their status using the command ' node app.js list '
 - Remove tasks using the command ' node app.js remove <id number> '
 - Update tasks using the command ' node app.js update <id number> "task" '
-- Mark tasks as done using the command ' node app.js add done <id number> '
+- Mark tasks as done using the command ' node app.js done <id number> '
 - Clear all tasks by using the command ' node app.js reset '
 
 
