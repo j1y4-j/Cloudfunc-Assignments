@@ -17,9 +17,9 @@ All testing must be done **using the browser only**, as required by the assignme
 
 ###  1. Clone the project
 ```bash
-git clone <your-repo-url>
-cd <project-folder>```
-````
+git clone https://github.com/j1y4-j/Cloudfunc-Assignments.git
+cd ./Cloudfunc-Assignments/jwt-auth
+```
 ### 2. Install Dependencies
 ``` npm install```
 ### 3. Create a .env file
@@ -46,8 +46,8 @@ Your server will run at:
 
 On the browser,
 - to register user use the URL given and modify the queries as required:
-http://localhost:3000/register?email=test@gmail.com&password=123
+```http://localhost:3000/register?email=test@gmail.com&password=123```
 - to login:
-http://localhost:3000/login?email=test@gmail.com&password=123
-- to check if function invoked
-http://localhost:3000/invoke?token=PASTE_TOKEN_HERE
+```http://localhost:3000/login?email=test@gmail.com&password=123```
+- to check if function invoked:
+```http://localhost:3000/invoke?token=PASTE_TOKEN_HERE```
