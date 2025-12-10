@@ -15,14 +15,14 @@ All testing must be done **using the browser only**, as required by the assignme
 
 ##  Installation
 
-###  1.Clone the project
+###  1. Clone the project
 ```bash
 git clone <your-repo-url>
 cd <project-folder>```
 ````
-### 2.Install Dependencies
+### 2. Install Dependencies
 ``` npm install```
-### 3.Create a .env file
+### 3. Create a .env file
 
 Create a .env file in the project root and add:
 
