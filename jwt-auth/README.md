@@ -1,6 +1,6 @@
 # JWT Authentication System – Node.js
 
-## 📌 Overview
+##  Overview
 This project implements a simple **JWT-based authentication system** using **Node.js and Express**. It includes:
 
 - User **registration** with hashed passwords  
@@ -13,9 +13,15 @@ All testing must be done **using the browser only**, as required by the assignme
 
 ---
 
-## 📦 Installation
+##  Installation
 
 ### 1. Clone the project
 ```bash
 git clone <your-repo-url>
-cd <project-folder>
+cd <project-folder>```
+
+---
+
+## Testing
+run the server using the command "npm run start"
+then, to register user use the URL given and modify the queries as required -> http://localhost:3000/register?email=test@gmail.com&password=123
