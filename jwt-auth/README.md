@@ -44,8 +44,8 @@ node -e "console.log(require('crypto').randomBytes(64).toString('hex'))"
 Your server will run at:
 ```http://localhost:3000```
 
-On the browser,
-- to register user use the URL given and modify the queries as required:
+On the browser, execute the following and modify the queries as required:
+- to register:
 ```http://localhost:3000/register?email=test@gmail.com&password=123```
 - to login:
 ```http://localhost:3000/login?email=test@gmail.com&password=123```
