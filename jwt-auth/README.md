@@ -20,13 +20,34 @@ All testing must be done **using the browser only**, as required by the assignme
 git clone <your-repo-url>
 cd <project-folder>```
 ````
+### Install Dependencies
+``` npm install
+```
+### Create a .env file
+
+Create a .env file in the project root and add:
+
+```ACCESS_TOKEN_SECRET=your_secret_key_here``
+
+
+To generate a secret key:
+
+```node -e "console.log(require('crypto').randomBytes(64).toString('hex'))"```
 ---
 
 ## Testing
 
-> run the server using the command "npm run start" on the terminal
+### Start the server using:
 
-> Now we test using the browser
+node app.js
+
+
+Your server will run at:
+
+http://localhost:3000
+
+## Testing
+On the browser,
 - to register user use the URL given and modify the queries as required:
 http://localhost:3000/register?email=test@gmail.com&password=123
 - to login:
