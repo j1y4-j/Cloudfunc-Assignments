@@ -1,8 +1,0 @@
-we use bcrypt to hash passwords
-to hash a password -> 2 steps :
-1. create a salt ( so that each password is unique)
-2. then hash the password
-
-if we just hash the password as it is, then for multiple users having the same passwords, the hash might return the same strings for each of them
-
-
