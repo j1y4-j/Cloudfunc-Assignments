@@ -21,32 +21,29 @@ git clone <your-repo-url>
 cd <project-folder>```
 ````
 ### Install Dependencies
-``` npm install
-```
+``` npm install```
 ### Create a .env file
 
 Create a .env file in the project root and add:
 
-```ACCESS_TOKEN_SECRET=your_secret_key_here``
+```ACCESS_TOKEN_SECRET=your_secret_key_here```
 
 
 To generate a secret key:
 
-```node -e "console.log(require('crypto').randomBytes(64).toString('hex'))"```
----
+``` bash
+node -e "console.log(require('crypto').randomBytes(64).toString('hex'))" 
+```
 
 ## Testing
 
 ### Start the server using:
-
-node app.js
+```node app.js```
 
 
 Your server will run at:
+```http://localhost:3000```
 
-http://localhost:3000
-
-## Testing
 On the browser,
 - to register user use the URL given and modify the queries as required:
 http://localhost:3000/register?email=test@gmail.com&password=123
