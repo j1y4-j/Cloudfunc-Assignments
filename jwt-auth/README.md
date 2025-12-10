@@ -15,7 +15,7 @@ All testing must be done **using the browser only**, as required by the assignme
 
 ##  Installation
 
-### 1. Clone the project
+###  Clone the project
 ```bash
 git clone <your-repo-url>
 cd <project-folder>```
